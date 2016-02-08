@@ -218,8 +218,8 @@
             <section>
               <h2>S2I Build</h2>
                 <p>
-                  Source-to-Image scripts work in conjunction with a builder image to provide the logic to assemble your 
-                  application into whatever form and directory structure the runtime consumes. 
+                  Source-to-Image scripts work in conjunction with a builder image to provide the logic to assemble your
+                  application into whatever form and directory structure the runtime consumes.
                   The scripts also know how to launch the runtime when the Docker image is started.
                 </p>
 
@@ -234,12 +234,12 @@
                 The builder places <b>Sources</b> and <b>Scripts</b> inside the <b>Image</b>.
                 </p>
 
-                <p>If you created the application from the web console, 
+                <p>If you created the application from the web console,
                 you'll need to provide the MAVEN_MIRROR_URL to let the build happen successfully.
-                
+
                 </p>
-                <img src="./images/23.png">
-                
+                <img src="./images/22.png">
+
                   <ul>
                     <li><a href="https://developers.openshift.com/en/managing-modifying-applications.html">Learn more about deploying and building your application</a></li>
                     <li>See the README file in your local application Git repository for more information on the options for deploying applications.</li>
@@ -249,14 +249,14 @@
                   To get started you can either modify the default war or try one of these samples:
                     <ul>
                       <li><a href="https://github.com/sreekaimal/hello2.git">This Application</a> this quickstart showcases a simple S2I Build on JBossEAP 64.</li>
-                      
+
                     </ul>
 
                     <h3>Example Creation</h3>
             <pre>
             Select JBoss EAP 6.4 S2I Image
             Provide Application Name.
-            Provide GitHub Project URL. 
+            Provide GitHub Project URL.
             Any Git would work as long as the pom.xml is in the root folder.
             </pre>
 
@@ -269,8 +269,8 @@
 
                 <h3>Deployment Config</h3>
                 <p>
-                  The JBoss EAP cartridge might fail due to the default 256MB Limit Set on Container. 
-                To fix this edit the Deployment Config File, 
+                  The JBoss EAP cartridge might fail due to the default 256MB Limit Set on Container.
+                To fix this edit the Deployment Config File,
                 and manage domain memberships.
                 </p>
 
@@ -284,13 +284,13 @@
                     cpu: 500m
                     memory: 1536Mi
                 </pre>
-                
+
 
                 <h2>Development Resources</h2>
                   <h3>One Connect And Openshift Blogs</h3>
                   <p>
                     Additional training documents can be located on the oneconnect site..
-                   
+
                     <a href="https://oneconnect.uhg.com/docs/DOC-53617">Day1 Training Link.</a>
                   </p>
                   <h3>Debugging</h3>
